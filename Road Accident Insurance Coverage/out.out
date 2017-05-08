@@ -1,0 +1,331 @@
+		Details of Vehicles
+Model		 Owner name	 Number of wheels	 Policy class	  Policy Expiry
+Firefox		 Syesha			2				 No Policy 			 --
+
+Lamborghini	 DT				2				 No Policy 			 --
+
+Bajaj		 Rishi			2				Package				 Valid
+
+Hero		 Bhidu			2				Third Party			 Expired
+
+Harley		 Mridul			2				Third Party			 Valid
+
+Maruti		 Rahul			4				Package				 Expired
+
+Audi		 Talwar			4				Package				 Valid
+
+==============================================
+	Collision loop start message
+==============================================
+I am Model-Firefox Owner-Syesha, collided with Model-Lamborghini Owner-DT
+Damages self: 6092
+Damages oncoming: 9722
+Settlement Details: 
+Exception Thrown: NoPolicyException: Vehicle has no insurance policy to make claim.
+
+
+I am Model-Firefox Owner-Syesha, collided with Model-Bajaj Owner-Rishi
+Damages self: 7030
+Damages oncoming: 5723
+Settlement Details: 
+Exception Thrown: NoPolicyException: Vehicle has no insurance policy to make claim.
+
+
+I am Model-Firefox Owner-Syesha, collided with Model-Hero Owner-Bhidu
+Damages self: 7316
+Damages oncoming: 1328
+Settlement Details: 
+Exception Thrown: NoPolicyException: Vehicle has no insurance policy to make claim.
+
+
+I am Model-Firefox Owner-Syesha, collided with Model-Harley Owner-Mridul
+Damages self: 9078
+Damages oncoming: 8563
+Settlement Details: 
+Exception Thrown: NoPolicyException: Vehicle has no insurance policy to make claim.
+
+
+I am Model-Firefox Owner-Syesha, collided with Model-Maruti Owner-Rahul
+Damages self: 3294
+Damages oncoming: 9808
+Settlement Details: 
+Exception Thrown: NoPolicyException: Vehicle has no insurance policy to make claim.
+
+
+I am Model-Firefox Owner-Syesha, collided with Model-Audi Owner-Talwar
+Damages self: 6029
+Damages oncoming: 3553
+Settlement Details: 
+Exception Thrown: NoPolicyException: Vehicle has no insurance policy to make claim.
+
+
+I am Model-Lamborghini Owner-DT, collided with Model-Firefox Owner-Syesha
+Damages self: 8156
+Damages oncoming: 8206
+Settlement Details: 
+Exception Thrown: NoPolicyException: Vehicle has no insurance policy to make claim.
+
+
+I am Model-Lamborghini Owner-DT, collided with Model-Bajaj Owner-Rishi
+Damages self: 9556
+Damages oncoming: 1853
+Settlement Details: 
+Exception Thrown: NoPolicyException: Vehicle has no insurance policy to make claim.
+
+
+I am Model-Lamborghini Owner-DT, collided with Model-Hero Owner-Bhidu
+Damages self: 5099
+Damages oncoming: 1406
+Settlement Details: 
+Exception Thrown: NoPolicyException: Vehicle has no insurance policy to make claim.
+
+
+I am Model-Lamborghini Owner-DT, collided with Model-Harley Owner-Mridul
+Damages self: 3414
+Damages oncoming: 5461
+Settlement Details: 
+Exception Thrown: NoPolicyException: Vehicle has no insurance policy to make claim.
+
+
+I am Model-Lamborghini Owner-DT, collided with Model-Maruti Owner-Rahul
+Damages self: 4123
+Damages oncoming: 2564
+Settlement Details: 
+Exception Thrown: NoPolicyException: Vehicle has no insurance policy to make claim.
+
+
+I am Model-Lamborghini Owner-DT, collided with Model-Audi Owner-Talwar
+Damages self: 6970
+Damages oncoming: 9347
+Settlement Details: 
+Exception Thrown: NoPolicyException: Vehicle has no insurance policy to make claim.
+
+
+I am Model-Bajaj Owner-Rishi, collided with Model-Firefox Owner-Syesha
+Damages self: 1472
+Damages oncoming: 9248
+Settlement Details: 
+oncoming vehicle damage status: Amount left to be settled->1849.6000000000001
+self damage status: Amount left to be settled is unchanged, i.e.1472
+
+
+I am Model-Bajaj Owner-Rishi, collided with Model-Lamborghini Owner-DT
+Damages self: 7772
+Damages oncoming: 5827
+Settlement Details: 
+oncoming vehicle damage status: Amount left to be settled->1165.4
+self damage status: Amount left to be settled is unchanged, i.e.7772
+
+
+I am Model-Bajaj Owner-Rishi, collided with Model-Hero Owner-Bhidu
+Damages self: 1423
+Damages oncoming: 7060
+Settlement Details: 
+oncoming vehicle damage status: Amount left to be settled->1412.0
+self damage status: Amount left to be settled is unchanged, i.e.1423
+
+
+I am Model-Bajaj Owner-Rishi, collided with Model-Harley Owner-Mridul
+Damages self: 7576
+Damages oncoming: 3608
+Settlement Details: 
+oncoming vehicle damage status: Amount left to be settled->721.6
+self damage status: Amount left to be settled is unchanged, i.e.7576
+
+
+I am Model-Bajaj Owner-Rishi, collided with Model-Maruti Owner-Rahul
+Damages self: 3369
+Damages oncoming: 2901
+Settlement Details: 
+oncoming vehicle damage status: Amount left to be settled->580.2
+self damage status: Amount left to be settled is unchanged, i.e.3369
+
+
+I am Model-Bajaj Owner-Rishi, collided with Model-Audi Owner-Talwar
+Damages self: 3258
+Damages oncoming: 5688
+Settlement Details: 
+oncoming vehicle damage status: Amount left to be settled->1137.6000000000001
+self damage status: Amount left to be settled is unchanged, i.e.3258
+
+
+I am Model-Hero Owner-Bhidu, collided with Model-Firefox Owner-Syesha
+Damages self: 9214
+Damages oncoming: 8522
+Settlement Details: 
+Exception thrown: ExpiredPolicyException: This policy is expired. You cannot claim.
+
+
+I am Model-Hero Owner-Bhidu, collided with Model-Lamborghini Owner-DT
+Damages self: 3435
+Damages oncoming: 4688
+Settlement Details: 
+Exception thrown: ExpiredPolicyException: This policy is expired. You cannot claim.
+
+
+I am Model-Hero Owner-Bhidu, collided with Model-Bajaj Owner-Rishi
+Damages self: 2017
+Damages oncoming: 9463
+Settlement Details: 
+Exception thrown: ExpiredPolicyException: This policy is expired. You cannot claim.
+
+
+I am Model-Hero Owner-Bhidu, collided with Model-Harley Owner-Mridul
+Damages self: 2257
+Damages oncoming: 9023
+Settlement Details: 
+Exception thrown: ExpiredPolicyException: This policy is expired. You cannot claim.
+
+
+I am Model-Hero Owner-Bhidu, collided with Model-Maruti Owner-Rahul
+Damages self: 8449
+Damages oncoming: 3993
+Settlement Details: 
+Exception thrown: ExpiredPolicyException: This policy is expired. You cannot claim.
+
+
+I am Model-Hero Owner-Bhidu, collided with Model-Audi Owner-Talwar
+Damages self: 3740
+Damages oncoming: 7727
+Settlement Details: 
+Exception thrown: ExpiredPolicyException: This policy is expired. You cannot claim.
+
+
+I am Model-Harley Owner-Mridul, collided with Model-Firefox Owner-Syesha
+Damages self: 2047
+Damages oncoming: 1212
+Settlement Details: 
+oncoming vehicle damage status: Amount left to be settled->242.4
+self damage status: Amount left to be settled is unchanged, i.e.2047
+
+
+I am Model-Harley Owner-Mridul, collided with Model-Lamborghini Owner-DT
+Damages self: 2233
+Damages oncoming: 2697
+Settlement Details: 
+oncoming vehicle damage status: Amount left to be settled->539.4
+self damage status: Amount left to be settled is unchanged, i.e.2233
+
+
+I am Model-Harley Owner-Mridul, collided with Model-Bajaj Owner-Rishi
+Damages self: 7543
+Damages oncoming: 3032
+Settlement Details: 
+oncoming vehicle damage status: Amount left to be settled->606.4
+self damage status: Amount left to be settled is unchanged, i.e.7543
+
+
+I am Model-Harley Owner-Mridul, collided with Model-Hero Owner-Bhidu
+Damages self: 6079
+Damages oncoming: 1545
+Settlement Details: 
+oncoming vehicle damage status: Amount left to be settled->309.0
+self damage status: Amount left to be settled is unchanged, i.e.6079
+
+
+I am Model-Harley Owner-Mridul, collided with Model-Maruti Owner-Rahul
+Damages self: 6445
+Damages oncoming: 2373
+Settlement Details: 
+oncoming vehicle damage status: Amount left to be settled->474.6
+self damage status: Amount left to be settled is unchanged, i.e.6445
+
+
+I am Model-Harley Owner-Mridul, collided with Model-Audi Owner-Talwar
+Damages self: 4315
+Damages oncoming: 9282
+Settlement Details: 
+oncoming vehicle damage status: Amount left to be settled->1856.4
+self damage status: Amount left to be settled is unchanged, i.e.4315
+
+
+I am Model-Maruti Owner-Rahul, collided with Model-Firefox Owner-Syesha
+Damages self: 9924
+Damages oncoming: 8533
+Settlement Details: 
+Exception thrown: ExpiredPolicyException: This policy is expired. You cannot claim.
+
+
+I am Model-Maruti Owner-Rahul, collided with Model-Lamborghini Owner-DT
+Damages self: 3287
+Damages oncoming: 6543
+Settlement Details: 
+Exception thrown: ExpiredPolicyException: This policy is expired. You cannot claim.
+
+
+I am Model-Maruti Owner-Rahul, collided with Model-Bajaj Owner-Rishi
+Damages self: 4554
+Damages oncoming: 6358
+Settlement Details: 
+Exception thrown: ExpiredPolicyException: This policy is expired. You cannot claim.
+
+
+I am Model-Maruti Owner-Rahul, collided with Model-Hero Owner-Bhidu
+Damages self: 1396
+Damages oncoming: 7164
+Settlement Details: 
+Exception thrown: ExpiredPolicyException: This policy is expired. You cannot claim.
+
+
+I am Model-Maruti Owner-Rahul, collided with Model-Harley Owner-Mridul
+Damages self: 8844
+Damages oncoming: 9547
+Settlement Details: 
+Exception thrown: ExpiredPolicyException: This policy is expired. You cannot claim.
+
+
+I am Model-Maruti Owner-Rahul, collided with Model-Audi Owner-Talwar
+Damages self: 6802
+Damages oncoming: 8452
+Settlement Details: 
+Exception thrown: ExpiredPolicyException: This policy is expired. You cannot claim.
+
+
+I am Model-Audi Owner-Talwar, collided with Model-Firefox Owner-Syesha
+Damages self: 7594
+Damages oncoming: 8119
+Settlement Details: 
+oncoming vehicle damage status: Amount left to be settled->1623.8000000000002
+self damage status: Amount left to be settled is unchanged, i.e.7594
+
+
+I am Model-Audi Owner-Talwar, collided with Model-Lamborghini Owner-DT
+Damages self: 7786
+Damages oncoming: 9660
+Settlement Details: 
+oncoming vehicle damage status: Amount left to be settled->1932.0
+self damage status: Amount left to be settled is unchanged, i.e.7786
+
+
+I am Model-Audi Owner-Talwar, collided with Model-Bajaj Owner-Rishi
+Damages self: 1040
+Damages oncoming: 3883
+Settlement Details: 
+oncoming vehicle damage status: Amount left to be settled->776.6
+self damage status: Amount left to be settled is unchanged, i.e.1040
+
+
+I am Model-Audi Owner-Talwar, collided with Model-Hero Owner-Bhidu
+Damages self: 6680
+Damages oncoming: 8790
+Settlement Details: 
+oncoming vehicle damage status: Amount left to be settled->1758.0
+self damage status: Amount left to be settled is unchanged, i.e.6680
+
+
+I am Model-Audi Owner-Talwar, collided with Model-Harley Owner-Mridul
+Damages self: 7422
+Damages oncoming: 8491
+Settlement Details: 
+oncoming vehicle damage status: Amount left to be settled->1698.2
+self damage status: Amount left to be settled is unchanged, i.e.7422
+
+
+I am Model-Audi Owner-Talwar, collided with Model-Maruti Owner-Rahul
+Damages self: 6689
+Damages oncoming: 3060
+Settlement Details: 
+oncoming vehicle damage status: Amount left to be settled->612.0
+self damage status: Amount left to be settled is unchanged, i.e.6689
+
+
